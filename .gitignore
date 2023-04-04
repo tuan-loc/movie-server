@@ -1,0 +1,7 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+DATABASE_URL="mysql://root:1234@localhost:3306/bookingmovie?schema=public"
+SECRET_KEY = @VOCONGTUANLOC221299
+EXPIRES_IN = 1000000
